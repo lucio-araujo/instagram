@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>Cadastre-se</title>
 </head>
 <body>
     <main>
         <div class="banner">
-            <img src="img/banner-login.png" alt="Amostra do Instagrm em smartphones.">
+            <img src="/img/banner-login.png" alt="Amostra do Instagrm em smartphones.">
         </div>
         <div class="login cadastro">
-            <img src="img/logo.png" alt="Logo Instagram." class="logo">
-            <form>
+            <img src="/img/logo.png" alt="Logo Instagram." class="logo">
+            <form action="/usuarios" method="POST">
                 <input type="text" name="nome" id="nome" placeholder="Digite nome">
                 <input type="email" name="email" id="email" placeholder="Digite seu email">
                 <input type="password" name="senha" id="senha" placeholder="Digite sua senha">
-                <input type="password" name="senha" id="senha" placeholder="Confirme sua senha">
+                <input type="password" name="confirmaSenha" id="confirmaSenha" placeholder="Confirme sua senha">
                 <button type="submit">Cadastre-se</button>
                 <p class="texto">
                     Ao se cadastrar, você concorda com nossos <a href="">Termos</a>, 
