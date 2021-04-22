@@ -6,7 +6,7 @@ const postsController = {
             include: [ 'usuario', 'comentarios' ]
         });
         
-        return res.render('index', { listaPosts: posts});
+        return res.render('index', { listaPosts: posts });
     },
 
     create: async (req, res) => {
